@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewViewController.h"
+#import "UIImageScaleViewController.h"
 
 @implementation AppDelegate
 
@@ -24,10 +25,12 @@
     self.window.backgroundColor = [UIColor whiteColor];
     HomeViewViewController *homeViewController = [[HomeViewViewController alloc] initWithNibName:@"HomeViewViewController" bundle:nil];
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    UIImageScaleViewController *imageViewScaleViewController = [[UIImageScaleViewController alloc] initWithNibName:@"UIImageScaleViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:imageViewScaleViewController];
     [navigationController setNavigationBarHidden:YES];
     self.window.rootViewController = navigationController;
     [homeViewController release];
+    [imageViewScaleViewController release];
     [navigationController release];
     [self.window makeKeyAndVisible];
     return YES;

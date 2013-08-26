@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewViewController.h"
+
 #define SELF_VIEW_WIDTH 1024
 @interface HomeViewViewController ()
 

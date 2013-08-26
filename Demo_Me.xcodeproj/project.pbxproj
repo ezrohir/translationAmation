@@ -18,6 +18,9 @@
 		A5F993FF17CB033D008B5FA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F993FE17CB033D008B5FA3 /* Default-568h@2x.png */; };
 		A5F9940817CB0352008B5FA3 /* HomeViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9940617CB0352008B5FA3 /* HomeViewViewController.m */; };
 		A5F9940917CB0352008B5FA3 /* HomeViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9940717CB0352008B5FA3 /* HomeViewViewController.xib */; };
+		A5F9940D17CB3C7E008B5FA3 /* UIImageScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9940B17CB3C7E008B5FA3 /* UIImageScaleViewController.m */; };
+		A5F9940E17CB3C7E008B5FA3 /* UIImageScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9940C17CB3C7E008B5FA3 /* UIImageScaleViewController.xib */; };
+		A5F9941017CB3F14008B5FA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F9940F17CB3F14008B5FA3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		A5F9940517CB0352008B5FA3 /* HomeViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewViewController.h; sourceTree = "<group>"; };
 		A5F9940617CB0352008B5FA3 /* HomeViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewViewController.m; sourceTree = "<group>"; };
 		A5F9940717CB0352008B5FA3 /* HomeViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewViewController.xib; sourceTree = "<group>"; };
+		A5F9940A17CB3C7E008B5FA3 /* UIImageScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageScaleViewController.h; sourceTree = "<group>"; };
+		A5F9940B17CB3C7E008B5FA3 /* UIImageScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageScaleViewController.m; sourceTree = "<group>"; };
+		A5F9940C17CB3C7E008B5FA3 /* UIImageScaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIImageScaleViewController.xib; sourceTree = "<group>"; };
+		A5F9940F17CB3F14008B5FA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F9941017CB3F14008B5FA3 /* QuartzCore.framework in Frameworks */,
 				A5F993E917CB033D008B5FA3 /* UIKit.framework in Frameworks */,
 				A5F993EB17CB033D008B5FA3 /* Foundation.framework in Frameworks */,
 				A5F993ED17CB033D008B5FA3 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,10 @@
 		A5F993DC17CB033D008B5FA3 = {
 			isa = PBXGroup;
 			children = (
+				A5F9940F17CB3F14008B5FA3 /* QuartzCore.framework */,
+				A5F9940A17CB3C7E008B5FA3 /* UIImageScaleViewController.h */,
+				A5F9940B17CB3C7E008B5FA3 /* UIImageScaleViewController.m */,
+				A5F9940C17CB3C7E008B5FA3 /* UIImageScaleViewController.xib */,
 				A5F9940517CB0352008B5FA3 /* HomeViewViewController.h */,
 				A5F9940617CB0352008B5FA3 /* HomeViewViewController.m */,
 				A5F9940717CB0352008B5FA3 /* HomeViewViewController.xib */,
@@ -163,6 +175,7 @@
 				A5F993FD17CB033D008B5FA3 /* Default@2x.png in Resources */,
 				A5F993FF17CB033D008B5FA3 /* Default-568h@2x.png in Resources */,
 				A5F9940917CB0352008B5FA3 /* HomeViewViewController.xib in Resources */,
+				A5F9940E17CB3C7E008B5FA3 /* UIImageScaleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +189,7 @@
 				A5F993F517CB033D008B5FA3 /* main.m in Sources */,
 				A5F993F917CB033D008B5FA3 /* AppDelegate.m in Sources */,
 				A5F9940817CB0352008B5FA3 /* HomeViewViewController.m in Sources */,
+				A5F9940D17CB3C7E008B5FA3 /* UIImageScaleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +306,7 @@
 				A5F9940417CB033D008B5FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
